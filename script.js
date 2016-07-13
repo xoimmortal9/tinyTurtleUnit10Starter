@@ -12,6 +12,7 @@ right(90);
 forward(50);
 }
 
-square();
+// Type your function call below
+
 
 stamp();

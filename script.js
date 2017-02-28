@@ -1,4 +1,4 @@
-TinyTurtle.apply(window);
+TinyTurtle.apply(window, [undefined, 400, 400]);
 
 function square(){
 forward(50);

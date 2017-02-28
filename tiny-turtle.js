@@ -3,8 +3,10 @@
 // Public Domain.
 // For more information, see http://github.com/toolness/tiny-turtle.
 
-function TinyTurtle(canvas) {
+function TinyTurtle(canvas, width = 300, height = 150) {
   canvas = canvas || document.querySelector('canvas');
+  canvas.width = width;
+  canvas.height = height;
   console.log(canvas)
   var self = this;
   var rotation = 90;
